@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import useDiary from '../hooks/useDiary';
-import { getFormattedDate } from '../utils';
+import { getFormattedDate } from '../Utils';
 import Button from '../component/Button';
 import Header from '../component/Header';
 import Viewer from '../component/Viewer';

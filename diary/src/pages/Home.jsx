@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from 'react';
 import Button from '../component/Button';
 import Header from '../component/Header';
 import { DiaryStateContext } from '../App';
-import { getMonthRangeByDate } from '../utils';
+import { getMonthRangeByDate } from '../Utils';
 import DiaryList from '../component/DiaryList';
 
 const Home = () => {

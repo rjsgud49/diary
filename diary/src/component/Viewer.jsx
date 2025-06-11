@@ -1,6 +1,6 @@
 import "./Viewer.css";
-import { getEmotionImgById } from "../utils";
-import { emotionList } from "../utils";
+import { getEmotionImgById } from "../Utils";
+import { emotionList } from "../Utils";
 
 const Viewer = ({ emotionId, content }) => {
   const emotionItem = emotionList.find(

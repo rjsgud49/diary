@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import './Editor.css';
 import { useNavigate } from 'react-router-dom';
-import { getFormattedDate, emotionList } from '../utils';
+import { getFormattedDate, emotionList } from '../Utils';
 import Button from './Button';
 import EmotionItem from './EmotionItem';
 

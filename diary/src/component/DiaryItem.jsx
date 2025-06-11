@@ -1,6 +1,6 @@
 import React from 'react';
 import './DiaryItem.css';
-import { getEmotionImgById } from '../utils';
+import { getEmotionImgById } from '../Utils';
 import { useNavigate } from 'react-router-dom';
 import Button from './Button';
 
